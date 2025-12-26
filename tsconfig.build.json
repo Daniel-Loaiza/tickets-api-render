@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "ticket-flow-30/**/*",
+    "**/*spec.ts"
+  ]
+}
