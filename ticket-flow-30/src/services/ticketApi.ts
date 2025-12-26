@@ -1,7 +1,7 @@
 // Ticket API service
 import type { Ticket, CreateTicketPayload, UpdateTicketPayload, TicketFilters } from '@/types/ticket';
 
-const API_BASE_URL = 'https://tickets-api-render.onrender.com';
+const API_BASE_URL = 'https://tickets-api-render.onrender.com/';
 
 // Helper to build query string from filters
 function buildQueryString(filters: TicketFilters): string {
